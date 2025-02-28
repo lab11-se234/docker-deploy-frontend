@@ -1,8 +1,8 @@
 version: '3.3'
 
 services:
-frontend:
-image: porya123/234-deploylab-frontend:latest
-pull_policy: always
-ports:
-  - "8086:80"
+  frontend:
+    image: porya123/234-deploylab-frontend:latest
+    pull_policy: always
+    ports:
+      - "8086:80"
